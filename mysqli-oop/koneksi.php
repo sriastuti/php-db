@@ -1,9 +1,10 @@
-<?php
-$server="localhost";
-$username="root";
-$password="";
-$database="php_db";
+<?php 
 
-$con=new mysqli($server,$username,$password)or die("koneksi gagal");
-$con->select_db($database) or die("database tidak bisa di buka");
+define('DBHOST', 'localhost');
+define('DBUSER', 'root');
+define('DBPASS', '');
+define('DBNAME', 'php_db');
+
+$host = new mysqli(DBHOST, DBUSER, DBPASS, DBNAME);
+
 ?>
