@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Membuat CRUD Dengan PHP Dan MySQL - Menampilkan data dari database</title>
+	<title>membuat CRUD Dengan PHP Dan MySQL - Menampilkan data dari database</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
